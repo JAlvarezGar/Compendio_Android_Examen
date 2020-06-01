@@ -7,6 +7,8 @@ import android.view.View;
 
 import com.example.compendio2.camara.Camara;
 import com.example.compendio2.internet.Internet;
+import com.example.compendio2.musica.MP3;
+import com.example.compendio2.video.Video;
 
 public class MainActivity extends Activity {
 
@@ -26,5 +28,18 @@ public class MainActivity extends Activity {
 
         Intent camaraIntent= new Intent(this, Camara.class);
         startActivity(camaraIntent);
+    }
+
+    public void musica(View view) {
+
+        Intent musicaIntent= new Intent(this, MP3.class);
+        startActivity(musicaIntent);
+    }
+
+    public void video(View view) {
+
+        Intent videoIntent= new Intent(this, Video.class);
+        startActivity(videoIntent);
+
     }
 }

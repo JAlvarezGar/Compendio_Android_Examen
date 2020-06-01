@@ -47,7 +47,8 @@
                 android:id="@+id/imageView6"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:src="@mipmap/audio" />
+                android:src="@mipmap/audio"
+                android:onClick="musica"/>
 
             <TextView
                 android:id="@+id/textView6"
@@ -55,7 +56,8 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center|start|center_horizontal|center_vertical"
-                android:text="     Reproductor de  Música" />
+                android:text="     Reproductor de  Música"
+                />
 
         </TableRow>
 
@@ -155,7 +157,8 @@
                 android:id="@+id/imageView5"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:src="@mipmap/video" />
+                android:src="@mipmap/video"
+                android:onClick="video"/>
 
             <TextView
                 android:id="@+id/textView5"
